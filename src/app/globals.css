@@ -53,17 +53,6 @@
   --color-border-warning: var(--color-state-warn);
   --color-border-error: var(--color-state-danger);
 
-  /* Info: (20251105 - Julian) Tokens of font sizes */
-  --text-56px: 56px;
-  --text-48px: 48px;
-  --text-40px: 40px;
-  --text-32px: 32px;
-  --text-24px: 24px;
-  --text-20px: 20px;
-  --text-18px: 18px;
-  --text-16px: 16px;
-  --text-14px: 14px;
-
   /* Info: (20251105 - Julian) Tokens of spacings */
   --spacing-1: 8px;
   --spacing-2: 16px;
@@ -101,6 +90,48 @@
   --radius-m: var(--radius-3);
   --radius-l: var(--radius-4);
   --radius-rounded: var(--radius-5);
+}
+
+/* Info: (20251105 - Julian) Tokens of font sizes */
+.text-56px {
+  font-size: 56px;
+  line-height: 61.6px;
+}
+.text-48px {
+  font-size: 48px;
+  line-height: 52.8px;
+}
+.text-40px {
+  font-size: 40px;
+  line-height: 44px;
+}
+.text-32px {
+  font-size: 32px;
+  line-height: 35.2px;
+}
+.text-24px {
+  font-size: 24px;
+  line-height: 26.4px;
+}
+.text-20px-lg {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-20px {
+  font-size: 20px;
+  line-height: 22px;
+}
+.text-18px {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.text-16px {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.text-14px {
+  font-size: 14px;
+  line-height: 19.6px;
 }
 
 @media (prefers-color-scheme: dark) {
