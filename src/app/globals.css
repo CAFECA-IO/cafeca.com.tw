@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  font-family: var(--font-jost), var(--font-noto-sans-tc),
+    var(--font-noto-sans-sc), sans-serif;
+}
+
+/* Info: (20251105 - Julian) 中文字體：Noto Sans TC / SC */
+body:lang(zh),
+body:lang(zh-TW),
+body:lang(zh-HK),
+body:lang(zh-CN) {
+  font-family: var(--font-noto-sans-tc), var(--font-noto-sans-sc), sans-serif;
+}
+
+/* Info: (20251105 - Julian) 英文字體：Jost */
+body:lang(en) {
+  font-family: var(--font-jost), sans-serif;
+}
