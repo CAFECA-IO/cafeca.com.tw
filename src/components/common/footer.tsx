@@ -21,36 +21,44 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex w-full flex-col items-center justify-between gap-24px bg-surface-invert px-20px py-24px text-xs font-normal text-white desktop:flex-row desktop:px-80px desktop:text-sm">
+    <footer className="flex w-full flex-col items-center justify-between gap-3 bg-surface-invert px-8 py-3 text-xs font-normal text-white lg:flex-row lg:px-3 text-14px">
       {/* Info: (20250804 - Julian) Contact Information */}
-      <div className="flex flex-1 flex-col items-center gap-24px desktop:flex-row">
+      <div className="flex flex-1 flex-col items-center gap-3 lg:flex-row">
         <Link
           href={CAFECA_LOCATION_MAP}
           target="_blank"
-          className="flex items-center gap-8px"
+          className="flex items-center gap-1"
         >
-          <FaLocationDot size={24} />
+          <FaLocationDot size={24} className="shrink-0" />
           <p>{CAFECA_LOCATION_EN}</p>
         </Link>
         <Link
           href={`tel:${CAFECA_PHONE}`}
-          className="flex items-center gap-8px whitespace-nowrap"
+          className="flex items-center gap-1 whitespace-nowrap"
         >
-          <FaPhone size={16} />
+          <FaPhone size={16} className="shrink-0" />
           <p>{CAFECA_PHONE}</p>
         </Link>
         {/* Info: (20250804 - Julian) Social Media Links */}
-        <div className="flex items-center gap-16px">
-          <Link href={CAFECA_FACEBOOK_LINK} target="_blank">
+        <div className="flex items-center gap-2">
+          <Link
+            href={CAFECA_FACEBOOK_LINK}
+            target="_blank"
+            className="shrink-0"
+          >
             <BiLogoFacebook size={24} />
           </Link>
-          <Link href={CAFECA_TWITTER_LINK} target="_blank">
+          <Link href={CAFECA_TWITTER_LINK} target="_blank" className="shrink-0">
             <FaTwitter size={24} />
           </Link>
-          <Link href={CAFECA_LINKEDIN_LINK} target="_blank">
+          <Link
+            href={CAFECA_LINKEDIN_LINK}
+            target="_blank"
+            className="shrink-0"
+          >
             <FaLinkedinIn size={24} />
           </Link>
-          <Link href={CAFECA_GITHUB_LINK} target="_blank">
+          <Link href={CAFECA_GITHUB_LINK} target="_blank" className="shrink-0">
             <FaGithub size={24} />
           </Link>
         </div>
