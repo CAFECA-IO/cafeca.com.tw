@@ -23,6 +23,19 @@ const notoSansSC = Noto_Sans_SC({
 export const metadata: Metadata = {
   title: "CAFECA Offcial Web",
   description: "CAFECA Offcial Web",
+  authors: [{ name: "CAFECA" }],
+  keywords: ["CAFECA"],
+  icons: {
+    icon: "/logo/cafeca_icon.svg",
+  },
+  openGraph: {
+    title: "CAFECA",
+    description: "CAFECA Offcial Web",
+    url: "https://cafeca.com.tw/",
+    siteName: "CAFECA",
+    locale: "zh_TW",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -33,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jost.variable} ${notoSansTC.variable} ${notoSansSC.variable}`}
+        className={`${jost.variable} ${notoSansTC.variable} ${notoSansSC.variable} bg-surface-background`}
       >
         {children}
       </body>

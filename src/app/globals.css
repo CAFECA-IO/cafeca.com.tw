@@ -24,6 +24,46 @@
   --color-grey-grey-50: #f5f5f7ff;
   --color-grey-grey-000: #ffffffff;
 
+  --color-text-primary: var(--color-grey-grey-900);
+  --color-text-secondary: var(--color-grey-grey-500);
+  --color-text-note: var(--color-grey-grey-300);
+  --color-text-invert: var(--color-grey-grey-50);
+  --color-text-brand: var(--color-brand-brand-purple-500);
+  --color-text-success: var(--color-state-safe);
+  --color-text-warning: var(--color-state-warn);
+  --color-text-error: var(--color-state-danger);
+  --color-surface-background: var(--color-grey-grey-50);
+  --color-surface-primary: var(--color-grey-grey-000);
+  --color-surface-secondary: var(--color-grey-grey-100);
+  --color-surface-invert: var(--color-grey-grey-900);
+  --color-surface-brand: var(--color-brand-brand-purple-500);
+  --color-button-primary: var(--color-brand-brand-purple-500);
+  --color-button-secondary: var(--color-grey-grey-600);
+  --color-button-accent: var(--color-brand-brand-blud-500);
+  --color-button-disable: var(--color-grey-grey-300);
+  --color-button-primary-hover: var(--color-brand-brand-purple-300);
+  --color-button-secondary-hover: var(--color-grey-grey-500);
+  --color-button-accent-hover: var(--color-brand-brand-blud-300);
+  --color-link: var(--color-state-link);
+  --color-link-hover: var(--color-state-link--hover);
+  --color-border-primary: var(--color-grey-grey-900);
+  --color-border-secondary: var(--color-grey-grey-300);
+  --color-border-brand: var(--color-brand-brand-purple-500);
+  --color-border-success: var(--color-state-safe);
+  --color-border-warning: var(--color-state-warn);
+  --color-border-error: var(--color-state-danger);
+
+  /* Info: (20251105 - Julian) Tokens of font sizes */
+  --text-56px: 56px;
+  --text-48px: 48px;
+  --text-40px: 40px;
+  --text-32px: 32px;
+  --text-24px: 24px;
+  --text-20px: 20px;
+  --text-18px: 18px;
+  --text-16px: 16px;
+  --text-14px: 14px;
+
   /* Info: (20251105 - Julian) Tokens of spacings */
   --spacing-1: 8px;
   --spacing-2: 16px;
@@ -36,12 +76,31 @@
   --spacing-9: 96px;
   --spacing-10: 120px;
 
+  --spacing-none: 0px;
+  --spacing-3xs: var(--spacing-1);
+  --spacing-2xs: var(--spacing-2);
+  --spacing-xs: var(--spacing-3);
+  --spacing-s: var(--spacing-4);
+  --spacing-m: var(--spacing-5);
+  --spacing-l: var(--spacing-6);
+  --spacing-xl: var(--spacing-7);
+  --spacing-2xl: var(--spacing-8);
+  --spacing-3xl: var(--spacing-9);
+  --spacing-4xl: var(--spacing-10);
+
   /* Info: (20251105 - Julian) Tokens of radius */
   --radius-1: 5px;
   --radius-2: 10px;
   --radius-3: 15px;
   --radius-4: 20px;
   --radius-5: 500px;
+
+  --radius-none: 0px;
+  --radius-xs: var(--radius-1);
+  --radius-s: var(--radius-2);
+  --radius-m: var(--radius-3);
+  --radius-l: var(--radius-4);
+  --radius-rounded: var(--radius-5);
 }
 
 @media (prefers-color-scheme: dark) {
