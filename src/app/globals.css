@@ -5,17 +5,176 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  /* Info: (20251105 - Julian) Tokens of colors */
+  --color-brand-brand-purple-500: #b531fdff;
+  --color-brand-brand-purple-300: #d07afeff;
+  --color-brand-brand-blud-500: #00b4feff;
+  --color-brand-brand-blud-300: #6cd4ffff;
+  --color-state-safe: #3dd08cff;
+  --color-state-warn: #ffa600ff;
+  --color-state-danger: #ff5959ff;
+  --color-state-link: #8016bfff;
+  --color-state-link--hover: #d07afeff;
+  --color-grey-grey-900: #2f2f3eff;
+  --color-grey-grey-600: #5d5d7bff;
+  --color-grey-grey-500: #8181a0ff;
+  --color-grey-grey-300: #aaaabfff;
+  --color-grey-grey-100: #dbdbebff;
+  --color-grey-grey-50: #f5f5f7ff;
+  --color-grey-grey-000: #ffffffff;
+
+  --color-text-primary: var(--color-grey-grey-900);
+  --color-text-secondary: var(--color-grey-grey-500);
+  --color-text-note: var(--color-grey-grey-300);
+  --color-text-invert: var(--color-grey-grey-50);
+  --color-text-brand: var(--color-brand-brand-purple-500);
+  --color-text-success: var(--color-state-safe);
+  --color-text-warning: var(--color-state-warn);
+  --color-text-error: var(--color-state-danger);
+  --color-surface-background: var(--color-grey-grey-50);
+  --color-surface-primary: var(--color-grey-grey-000);
+  --color-surface-secondary: var(--color-grey-grey-100);
+  --color-surface-invert: var(--color-grey-grey-900);
+  --color-surface-brand: var(--color-brand-brand-purple-500);
+  --color-button-primary: var(--color-brand-brand-purple-500);
+  --color-button-secondary: var(--color-grey-grey-600);
+  --color-button-accent: var(--color-brand-brand-blud-500);
+  --color-button-disable: var(--color-grey-grey-300);
+  --color-button-primary-hover: var(--color-brand-brand-purple-300);
+  --color-button-secondary-hover: var(--color-grey-grey-500);
+  --color-button-accent-hover: var(--color-brand-brand-blud-300);
+  --color-link: var(--color-state-link);
+  --color-link-hover: var(--color-state-link--hover);
+  --color-border-primary: var(--color-grey-grey-900);
+  --color-border-secondary: var(--color-grey-grey-300);
+  --color-border-brand: var(--color-brand-brand-purple-500);
+  --color-border-success: var(--color-state-safe);
+  --color-border-warning: var(--color-state-warn);
+  --color-border-error: var(--color-state-danger);
+
+  /* Info: (20251105 - Julian) Tokens of spacings */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 56px;
+  --spacing-7: 72px;
+  --spacing-8: 80px;
+  --spacing-9: 96px;
+  --spacing-10: 120px;
+
+  --spacing-none: 0px;
+  --spacing-3xs: var(--spacing-1);
+  --spacing-2xs: var(--spacing-2);
+  --spacing-xs: var(--spacing-3);
+  --spacing-s: var(--spacing-4);
+  --spacing-m: var(--spacing-5);
+  --spacing-l: var(--spacing-6);
+  --spacing-xl: var(--spacing-7);
+  --spacing-2xl: var(--spacing-8);
+  --spacing-3xl: var(--spacing-9);
+  --spacing-4xl: var(--spacing-10);
+
+  /* Info: (20251105 - Julian) Tokens of radius */
+  --radius-1: 5px;
+  --radius-2: 10px;
+  --radius-3: 15px;
+  --radius-4: 20px;
+  --radius-5: 500px;
+
+  --radius-none: 0px;
+  --radius-xs: var(--radius-1);
+  --radius-s: var(--radius-2);
+  --radius-m: var(--radius-3);
+  --radius-l: var(--radius-4);
+  --radius-rounded: var(--radius-5);
+}
+
+/* Info: (20251105 - Julian) Tokens of font sizes */
+.text-56px {
+  font-size: 56px;
+  line-height: 61.6px;
+}
+.text-48px {
+  font-size: 48px;
+  line-height: 52.8px;
+}
+.text-40px {
+  font-size: 40px;
+  line-height: 44px;
+}
+.text-32px {
+  font-size: 32px;
+  line-height: 35.2px;
+}
+.text-24px {
+  font-size: 24px;
+  line-height: 26.4px;
+}
+.text-20px-lg {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-20px {
+  font-size: 20px;
+  line-height: 22px;
+}
+.text-18px {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.text-16px {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.text-14px {
+  font-size: 14px;
+  line-height: 19.6px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* Info: (20251105 - Julian) Tokens of colors */
+    --color-brand-brand-purple-500: #b531fdff;
+    --color-brand-brand-purple-300: #d07afeff;
+    --color-brand-brand-blud-500: #00b4feff;
+    --color-brand-brand-blud-300: #00b4feff;
+    --color-state-safe: #3dd08cff;
+    --color-state-warn: #ffa600ff;
+    --color-state-danger: #ff5959ff;
+    --color-state-link: #ffffffff;
+    --color-state-link--hover: #ffffffff;
+    --color-grey-grey-900: #2f2f3eff;
+    --color-grey-grey-600: #5d5d7bff;
+    --color-grey-grey-500: #8181a0ff;
+    --color-grey-grey-300: #aaaabfff;
+    --color-grey-grey-100: #e8e8edff;
+    --color-grey-grey-50: #f5f5f7ff;
+    --color-grey-grey-000: #ffffffff;
+
+    /* Info: (20251105 - Julian) Tokens of spacings */
+    --spacing-1: 8px;
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 40px;
+    --spacing-6: 56px;
+    --spacing-7: 72px;
+    --spacing-8: 80px;
+    --spacing-9: 96px;
+    --spacing-10: 120px;
+
+    /* Info: (20251105 - Julian) Tokens of radius */
+    --radius-1: 5px;
+    --radius-2: 10px;
+    --radius-3: 15px;
+    --radius-4: 20px;
+    --radius-5: 500px;
   }
 }
 
@@ -23,4 +182,22 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-family: var(--font-jost), var(--font-noto-sans-tc),
+    var(--font-noto-sans-sc), sans-serif;
+}
+
+/* Info: (20251105 - Julian) 中文字體：Noto Sans TC / SC */
+body:lang(zh),
+body:lang(zh-TW),
+body:lang(zh-HK),
+body:lang(zh-CN) {
+  font-family: var(--font-noto-sans-tc), var(--font-noto-sans-sc), sans-serif;
+}
+
+/* Info: (20251105 - Julian) 英文字體：Jost */
+body:lang(en) {
+  font-family: var(--font-jost), sans-serif;
 }
