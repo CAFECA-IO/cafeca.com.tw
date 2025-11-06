@@ -50,7 +50,7 @@ const ServiceOverview: React.FC = () => {
   const serviceTickets = SERVICE_FEATURES.map((feature) => (
     <div
       key={feature.order}
-      className="flex flex-col items-center gap-[20px] rounded-[30px] border border-white/75 bg-white/50 py-5 backdrop-blur-3xl"
+      className="flex flex-col items-center gap-[20px] rounded-[30px] border border-white/75 bg-linear-to-t from-white/10 to-white/70 py-5 bg-blend-overlay backdrop-blur-3xl"
     >
       <Image
         src={feature.image}
