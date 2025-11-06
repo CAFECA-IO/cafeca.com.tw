@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <div className="px-xl py-m w-full bg-transparent">
+    <div className="px-xl py-m z-10 w-full bg-transparent">
       <Link href={'/'}>
         <Image src="/logo/cafeca_logo.svg" width={120} height={36} alt="cafeca_logo" />
       </Link>

@@ -67,7 +67,7 @@ const ServiceOverview: React.FC = () => {
   ));
 
   return (
-    <div className="relative flex flex-col items-center justify-center gap-8 py-10">
+    <div className="relative z-10 flex flex-col items-center justify-center gap-8 py-10">
       {/* Info: (20251106 - Julian) Ring background */}
       <div className="absolute z-0 opacity-50">
         <Image src="/elements/ring.png" alt="ring_background" width={900} height={900} />

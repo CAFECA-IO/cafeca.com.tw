@@ -15,8 +15,8 @@ const CTA: React.FC = () => {
           and intelligent digital business environment.
         </p>
       </div>
-      <div className="absolute right-0">
-        <Image src="/elements/chain.png" alt="laptop_with_chain_img" width={900} height={620} />
+      <div className="absolute right-0 h-[600px] w-2/3">
+        <Image src="/elements/chain.png" alt="laptop_with_chain_img" fill objectFit="contain" />
       </div>
     </div>
   );

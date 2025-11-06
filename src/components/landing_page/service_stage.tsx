@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 const ServiceStage: React.FC = () => {
   return (
-    <div className="bg-button-disable flex flex-col gap-8 px-8 py-[120px]">
+    <div className="z-10 flex flex-col gap-8 px-8 py-[120px]">
       {/* Info: (20251106 - Julian) Title */}
       <div className="z-10 flex flex-col items-start gap-1 font-bold">
         <p className="text-text-brand text-20px uppercase">SERVICE STAGE</p>
@@ -12,7 +12,7 @@ const ServiceStage: React.FC = () => {
       </div>
 
       {/* Info: (20251106 - Julian) Stages */}
-      <div className="bg-surface-background grid grid-cols-8 items-center rounded-[30px] px-6 py-[60px]">
+      <div className="bg-surface-primary grid grid-cols-8 items-center rounded-[30px] px-6 py-[60px] shadow-[0px_50px_70px_-20px_#5D5D7B26]">
         {/* Info: (20251106 - Julian) Stage 1: Financial Regulatory Sandbox */}
         <div className="col-span-2 flex flex-col items-center gap-[60px]">
           <Image src="/icons/box_seam_fill.svg" alt="stage_1" width={120} height={120} />
