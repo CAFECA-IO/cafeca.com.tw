@@ -5,7 +5,7 @@ const CTA: React.FC = () => {
   return (
     <div className="relative z-10 flex min-h-[800px] items-center px-8">
       <div className="mr-[700px] flex flex-col gap-5">
-        <h1 className="text-56px font-bold">
+        <h1 className="text-56px text-text-primary font-bold">
           The Future of <span className="text-text-brand">Corporate Governance</span> and{' '}
           <span className="text-text-brand">FinTech</span>
         </h1>
