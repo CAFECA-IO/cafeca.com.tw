@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const CTA: React.FC = () => {
   return (
-    <div className="relative flex min-h-[800px] items-center px-8">
+    <div className="relative z-10 flex min-h-[800px] items-center px-8">
       <div className="mr-[700px] flex flex-col gap-5">
         <h1 className="text-56px font-bold">
           The Future of <span className="text-text-brand">Corporate Governance</span> and{' '}
