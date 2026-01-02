@@ -14,7 +14,7 @@ import {
 
 const Footer: React.FC = () => {
   const locale = useLocale();
-  const address = locale === 'zh_tw' ? CAFECA_LOCATION_CH : CAFECA_LOCATION_EN;
+  const address = locale === 'zh-tw' ? CAFECA_LOCATION_CH : CAFECA_LOCATION_EN;
 
   return (
     <footer className="bg-surface-invert text-14px flex w-full flex-col items-center justify-between gap-3 px-8 py-3 text-xs font-normal text-white lg:flex-row lg:px-3">

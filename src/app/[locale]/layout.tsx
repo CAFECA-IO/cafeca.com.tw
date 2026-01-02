@@ -47,12 +47,15 @@ export default async function LocaleLayout({
   const { locale } = await params;
   const messages = await getMessages();
 
+  // Info: (20260102 - Luphia) Convert snake_case to kebab-case for valid BCP 47 locale
+  const validLocale = locale.replace('_', '-');
+
   return (
-    <html lang={locale}>
+    <html lang={validLocale}>
       <body
         className={`${jost.variable} ${notoSansTC.variable} ${notoSansSC.variable} bg-surface-background`}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={validLocale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

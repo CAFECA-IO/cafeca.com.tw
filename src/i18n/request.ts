@@ -10,8 +10,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
+  const localeFile = locale.replace(/-/g, '_').toLowerCase();
+
   return {
     locale,
-    messages: (await import(`../locales/${locale}.json`)).default
+    messages: (await import(`../locales/${localeFile}.json`)).default
   };
 });
