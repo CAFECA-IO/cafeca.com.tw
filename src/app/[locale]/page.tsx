@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className="bg-surface-background relative flex min-h-screen grow flex-col items-center justify-center">
       {/* Info: (20251106 - Julian) Rectangle neon background */}
-      <div className="absolute top-0 z-0 h-[800px] w-full">
-        <Image src="/elements/rectangle.png" alt="neon_background" fill objectFit="cover" />
+      <div className="absolute top-0 z-0 h-[500px] w-full md:h-[800px]">
+        <Image src="/elements/rectangle.png" alt="neon_background" fill className="object-cover" />
       </div>
 
       {/* Info: (20251105 - Julian) Navbar */}
@@ -22,16 +22,16 @@ export default function Home() {
         <CTA />
 
         {/* Info: (20251106 - Julian) Wave shape background */}
-        <div className="absolute top-[250px] z-0 h-[700px] w-full">
-          <Image src="/elements/lines.png" alt="wave_background" fill objectFit="cover" />
+        <div className="absolute top-[250px] -z-10 hidden h-[700px] w-full md:block">
+          <Image src="/elements/lines.png" alt="wave_background" fill className="object-cover" />
         </div>
 
         {/* Info: (20251106 - Julian) Service Overview */}
         <ServiceOverview />
 
         {/* Info: (20251106 - Julian) Wave shape background */}
-        <div className="absolute bottom-[350px] z-0 h-[700px] w-full -scale-x-100">
-          <Image src="/elements/lines.png" alt="wave_background" fill objectFit="cover" />
+        <div className="absolute bottom-[350px] -z-10 hidden h-[700px] w-full -scale-x-100 md:block">
+          <Image src="/elements/lines.png" alt="wave_background" fill className="object-cover" />
         </div>
 
         {/* Info: (20251106 - Julian) Service Stage */}
