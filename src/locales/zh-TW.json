@@ -1,0 +1,57 @@
+{
+  "HomePage": {
+    "title": "CAFECA 官方網站",
+    "welcome": "歡迎來到 CAFECA"
+  },
+  "Navigation": {
+    "home": "首頁",
+    "about": "關於我們",
+    "services": "服務項目",
+    "contact": "聯絡我們",
+    "logoAlt": "CAFECA Logo"
+  },
+  "CTA": {
+    "titlePrefix": "未來的",
+    "titleHighlight1": "公司治理",
+    "titleConjunction": "與",
+    "titleHighlight2": "金融科技",
+    "description": "我們致力於建立一個去中心化的企業基礎設施，利用生物識別技術和區塊鏈數位簽章，創造一個值得信賴、安全且智能的數位商業環境。"
+  },
+  "ServiceOverview": {
+    "label": "服務概覽",
+    "title": "與我們共創未來",
+    "features": {
+      "auth": {
+        "title": "去中心化身份驗證",
+        "description": "利用生物識別和先進加密技術，我們創建不可篡改的數位 ID 和電子簽章系統。\n— 無需第三方機構的即時驗證"
+      },
+      "registration": {
+        "title": "區塊鏈公司註冊",
+        "description": "成立有限公司的一站式服務，支持多司法管轄區的法律框架和註冊流程。\n— 在區塊鏈上公開記錄股東結構和公司章程，由智能合約驅動，實現無紙化、跨境運營"
+      },
+      "accounting": {
+        "title": "鏈上會計服務",
+        "description": "財務數據即時加密並上傳至區塊鏈，靈活授權給會計師、稅務機關或內部治理單位。\n— 動態存取控制、可隨時審計的透明度，以及具備隱私保護的數據主權"
+      },
+      "tokenization": {
+        "title": "股權代幣化與穩定幣發行",
+        "description": "將股權轉換為可程式化代幣，並發行以質押股權為支持的穩定幣，實現增資、股權交易、預算分配、薪資發放等。\n— 資產數位化以推動股權融資的創新"
+      },
+      "governance": {
+        "title": "鏈上公司治理",
+        "description": "使用智能合約自動化董事會投票、預算分配和財務決策流程，確保透明的治理記錄和決議的自動執行。\n— 無需中介，公開可審計，並立即執行"
+      },
+      "finance": {
+        "title": "鏈上金融服務",
+        "description": "整合供應鏈金融和股權支持貸款，簡化業務運營和融資渠道。\n— 降低融資門檻，為企業釋放更大的成長潛力"
+      }
+    }
+  },
+  "ServiceStage": {
+    "label": "服務階段",
+    "title": "我們的前進旅程",
+    "stage1": "金融監理沙盒",
+    "stage2": "取得執照與擴大測試範圍",
+    "stage3": "正式發布"
+  }
+}

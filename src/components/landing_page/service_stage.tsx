@@ -1,14 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa6';
+import { useTranslations } from 'next-intl';
 
 const ServiceStage: React.FC = () => {
+  const t = useTranslations('ServiceStage');
+
   return (
     <div className="z-10 flex flex-col gap-8 px-8 py-[120px]">
       {/* Info: (20251106 - Julian) Title */}
       <div className="z-10 flex flex-col items-start gap-1 font-bold">
-        <p className="text-text-brand text-20px uppercase">SERVICE STAGE</p>
-        <h2 className="text-text-primary text-48px">Our Journey Forward</h2>
+        <p className="text-text-brand text-20px uppercase">{t('label')}</p>
+        <h2 className="text-text-primary text-48px">{t('title')}</h2>
       </div>
 
       {/* Info: (20251106 - Julian) Stages */}
@@ -17,7 +20,7 @@ const ServiceStage: React.FC = () => {
         <div className="col-span-2 flex flex-col items-center gap-[60px]">
           <Image src="/icons/box_seam_fill.svg" alt="stage_1" width={120} height={120} />
           <p className="text-text-primary text-center text-lg font-bold">
-            Financial Regulatory Sandbox
+            {t('stage1')}
           </p>
         </div>
 
@@ -30,7 +33,7 @@ const ServiceStage: React.FC = () => {
         <div className="col-span-2 flex flex-col items-center gap-[60px]">
           <Image src="/icons/badge_check.svg" alt="stage_2" width={120} height={120} />
           <p className="text-button-disable text-center text-lg font-bold">
-            License Acquisition & Expanded Testing Scope
+            {t('stage2')}
           </p>
         </div>
 
@@ -42,7 +45,7 @@ const ServiceStage: React.FC = () => {
         {/* Info: (20251106 - Julian) Stage 3: Official Launch */}
         <div className="col-span-2 flex flex-col items-center gap-[60px]">
           <Image src="/icons/rocket_sharp.svg" alt="stage_1" width={120} height={120} />
-          <p className="text-button-disable text-center text-lg font-bold">Official Launch</p>
+          <p className="text-button-disable text-center text-lg font-bold">{t('stage3')}</p>
         </div>
       </div>
     </div>
