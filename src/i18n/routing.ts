@@ -3,10 +3,10 @@ import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   // Info: (20260102 - Luphia) A list of all locales that are supported
-  locales: ['en', 'zh-TW'],
+  locales: ['en', 'zh_tw', 'zh_cn', 'ko', 'ja'],
 
   // Info: (20260102 - Luphia) Used when no locale matches
-  defaultLocale: 'zh-TW'
+  defaultLocale: 'zh_tw'
 });
 
 /**

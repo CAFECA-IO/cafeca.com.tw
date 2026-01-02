@@ -1,23 +1,20 @@
 import React from 'react';
 import { Link } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
-import { BiLogoFacebook } from 'react-icons/bi';
-import { FaLocationDot, FaPhone, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa6';
+import { FaLocationDot, FaPhone, FaGithub, FaEnvelope } from 'react-icons/fa6';
 import {
   CAFECA_COPYRIGHT,
   CAFECA_PHONE,
   CAFECA_LOCATION_EN,
   CAFECA_LOCATION_CH,
   CAFECA_LOCATION_MAP,
-  CAFECA_FACEBOOK_LINK,
-  CAFECA_TWITTER_LINK,
-  CAFECA_LINKEDIN_LINK,
   CAFECA_GITHUB_LINK,
+  CAFECA_EMAIL,
 } from '@/constants/config';
 
 const Footer: React.FC = () => {
   const locale = useLocale();
-  const address = locale === 'zh-TW' ? CAFECA_LOCATION_CH : CAFECA_LOCATION_EN;
+  const address = locale === 'zh_tw' ? CAFECA_LOCATION_CH : CAFECA_LOCATION_EN;
 
   return (
     <footer className="bg-surface-invert text-14px flex w-full flex-col items-center justify-between gap-3 px-8 py-3 text-xs font-normal text-white lg:flex-row lg:px-3">
@@ -31,21 +28,14 @@ const Footer: React.FC = () => {
           <FaPhone size={16} className="shrink-0" />
           <p>{CAFECA_PHONE}</p>
         </Link>
-        {/* Info: (20250804 - Julian) Social Media Links */}
-        <div className="flex items-center gap-2">
-          <Link href={CAFECA_FACEBOOK_LINK} target="_blank" className="shrink-0">
-            <BiLogoFacebook size={24} />
-          </Link>
-          <Link href={CAFECA_TWITTER_LINK} target="_blank" className="shrink-0">
-            <FaTwitter size={24} />
-          </Link>
-          <Link href={CAFECA_LINKEDIN_LINK} target="_blank" className="shrink-0">
-            <FaLinkedinIn size={24} />
-          </Link>
-          <Link href={CAFECA_GITHUB_LINK} target="_blank" className="shrink-0">
-            <FaGithub size={24} />
-          </Link>
-        </div>
+        <Link href={`mailto:${CAFECA_EMAIL}`} className="flex items-center gap-1 whitespace-nowrap">
+          <FaEnvelope size={16} className="shrink-0" />
+          <p>{CAFECA_EMAIL}</p>
+        </Link>
+        <Link href={CAFECA_GITHUB_LINK} target="_blank" className="flex items-center gap-1 whitespace-nowrap">
+          <FaGithub size={16} className="shrink-0" />
+          <p>github.com/cafeca-io</p>
+        </Link>
       </div>
 
       {/* Info: (20250804 - Julian) Copyright */}

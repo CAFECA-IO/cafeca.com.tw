@@ -44,10 +44,10 @@ const ServiceOverview: React.FC = () => {
       {/* Info: (20251106 - Julian) Title */}
       <div className="z-10 flex flex-col items-center gap-1 font-bold">
         <p className="text-text-brand text-20px uppercase">{t('label')}</p>
-        <h2 className="text-text-primary text-48px">{t('title')}</h2>
+        <h2 className="text-text-primary text-center text-3xl md:text-48px">{t('title')}</h2>
       </div>
       {/* Info: (20251106 - Julian) Features Grid */}
-      <div className="z-10 grid grid-cols-3 grid-rows-2 gap-[60px] px-8">{serviceTickets}</div>
+      <div className="z-10 grid grid-cols-1 gap-8 px-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-[60px] lg:px-8">{serviceTickets}</div>
     </div>
   );
 };

@@ -26,7 +26,10 @@ export default function LanguageSwitcher() {
         className="bg-transparent border border-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:border-blue-500"
       >
         <option value="en">English</option>
-        <option value="zh-TW">繁體中文</option>
+        <option value="zh_tw">繁體中文</option>
+        <option value="zh_cn">简体中文</option>
+        <option value="ko">한국어</option>
+        <option value="ja">日本語</option>
       </select>
     </div>
   );

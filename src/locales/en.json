@@ -1,7 +1,7 @@
 {
   "HomePage": {
-    "title": "CAFECA Official Web",
-    "welcome": "Welcome to CAFECA"
+    "title": "CAFECA",
+    "welcome": "The Future of Corporate Governance and FinTech"
   },
   "Navigation": {
     "home": "Home",
@@ -34,7 +34,7 @@
         "description": "Financial data is encrypted and uploaded to the blockchain in real time, with flexible permissions granted to accountants, tax authorities, or internal governance.\n— Dynamic access control, audit-ready transparency, and data sovereignty with privacy protection"
       },
       "tokenization": {
-        "title": "Equity Tokenization & Stablecoin Issuance",
+        "title": "Assets Digitalization",
         "description": "Convert equity into programmable tokens and issue stablecoins backed by staked equity, enabling capital increases, equity trading, budget allocation, payroll, and more.\n— Asset digitalization to drive innovation in equity financing"
       },
       "governance": {
