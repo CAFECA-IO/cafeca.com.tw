@@ -15,11 +15,11 @@ const ServiceStage: React.FC = () => {
   ];
 
   return (
-    <div className="z-10 flex flex-col gap-12 px-4 py-[60px] md:gap-20 md:px-8 md:py-[120px]">
+    <div className="z-10 flex flex-col gap-10 px-4 py-[60px] md:gap-14 md:px-8 md:py-[80px]">
       {/* Title */}
       <FadeIn className="z-10 flex flex-col items-center gap-2 md:items-start">
-        <p className="text-text-brand text-20px uppercase tracking-widest">{t('label')}</p>
-        <h2 className="text-text-primary text-center text-3xl font-bold md:text-left md:text-48px">{t('title')}</h2>
+        <p className="text-text-brand text-sm font-bold uppercase tracking-[0.2em]">{t('label')}</p>
+        <h2 className="text-text-primary text-center text-3xl font-bold md:text-left md:text-4xl">{t('title')}</h2>
       </FadeIn>
 
       <div className="relative mx-auto flex max-w-[1200px] flex-col gap-10 md:flex-row md:items-start md:gap-0">
@@ -31,7 +31,7 @@ const ServiceStage: React.FC = () => {
         {stages.map((stage, index) => (
           <div key={stage.key} className="relative z-10 flex flex-1 flex-row items-start gap-6 md:flex-col md:items-center md:gap-8 md:text-center">
             {/* Icon */}
-            <FadeIn delay={index * 0.2} className="shrink-0">
+            <FadeIn delay={index * 0.2} className="w-auto shrink-0">
               <div className={`flex h-[120px] w-[120px] items-center justify-center rounded-full bg-white shadow-lg shadow-brand-brand-purple-500/10`}>
                 <Image src={stage.icon} alt={stage.key} width={60} height={60} className="object-contain" />
               </div>
