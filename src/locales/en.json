@@ -23,35 +23,72 @@
     "features": {
       "auth": {
         "title": "Decentralized Identity Authentication",
-        "description": "Using biometric identification and advanced encryption, we create tamper-proof digital IDs and electronic signature systems.\n— Real-time verification without the need for third-party institutions"
+        "description": "Using biometric identification and advanced encryption, we create tamper-proof digital IDs and electronic signature systems."
       },
       "registration": {
         "title": "Blockchain-Based Company Registration",
-        "description": "One-stop service for establishing limited companies, supporting multi-jurisdictional legal frameworks and registration processes.\n— Publicly record shareholder structures and corporate charters on the blockchain, powered by smart contracts for paperless, cross-border operations"
+        "description": "One-stop service for establishing limited companies, supporting multi-jurisdictional legal frameworks and registration processes."
       },
       "accounting": {
         "title": "On-Chain Accounting Services",
-        "description": "Financial data is encrypted and uploaded to the blockchain in real time, with flexible permissions granted to accountants, tax authorities, or internal governance.\n— Dynamic access control, audit-ready transparency, and data sovereignty with privacy protection"
+        "description": "Financial data is encrypted and uploaded to the blockchain in real time, with flexible permissions granted to accountants, tax authorities, or internal governance."
       },
       "tokenization": {
         "title": "Assets Digitalization",
-        "description": "Convert equity into programmable tokens and issue stablecoins backed by staked equity, enabling capital increases, equity trading, budget allocation, payroll, and more.\n— Asset digitalization to drive innovation in equity financing"
+        "description": "Convert equity into programmable tokens and issue stablecoins backed by staked equity, enabling capital increases, equity trading, budget allocation, payroll, and more."
       },
       "governance": {
         "title": "On-Chain Corporate Governance",
-        "description": "Use smart contracts to automate board voting, budget allocation, and financial decision-making processes, ensuring transparent governance records and automatic execution of resolutions.\n— No intermediaries needed, publicly auditable, with immediate implementation"
+        "description": "Use smart contracts to automate board voting, budget allocation, and financial decision-making processes, ensuring transparent governance records and automatic execution of resolutions."
       },
       "finance": {
         "title": "On-Chain Financial Services",
-        "description": "Integrate supply chain finance and equity-backed lending to streamline business operations and financing channels.\n— Lower financing barriers and unlock greater growth potential for enterprises"
+        "description": "Integrate supply chain finance and equity-backed lending to streamline business operations and financing channels."
       }
     }
   },
   "ServiceStage": {
     "label": "SERVICE STAGE",
     "title": "Our Journey Forward",
-    "stage1": "Financial Regulatory Sandbox",
-    "stage2": "License Acquisition & Expanded Testing Scope",
-    "stage3": "Official Launch"
+    "stage1": {
+      "title": "Financial Regulatory Sandbox",
+      "description": "Collaborate with regulatory bodies to test innovative financial technologies in a controlled environment, ensuring compliance and security."
+    },
+    "stage2": {
+      "title": "License Acquisition & Expanded Testing Scope",
+      "description": "Secure necessary financial licenses and expand operational testing to a broader user base, validating system scalability and robustness."
+    },
+    "stage3": {
+      "title": "Official Launch",
+      "description": "Full market release of the decentralized corporate infrastructure, empowering businesses with secure, blockchain-based governance and financial tools."
+    }
+  },
+  "OurProducts": {
+    "label": "OUR PRODUCTS",
+    "title": "Explore Our Ecosystem",
+    "gringotts": {
+      "title": "Gringotts",
+      "description": "Institutional-grade compliant stablecoin protocol using ERC-3643. Ensures on-chain compliance with 1:1 backing and smart audits, powering secure corporate financing and settlements."
+    },
+    "cafeca": {
+      "title": "CAFECA",
+      "description": "The core digital identity and compliance engine. Integrates biometrics with W3C standards to issue Soulbound Tokens (SBT), enabling 'verify once, compliant everywhere' security for institutional finance."
+    },
+    "isunfa": {
+      "title": "iSunFA",
+      "description": "Core smart accounting/audit engine. Uses multi-modal models to align structured data with unstructured contracts (PDFs, laws), ensuring 24/7 IFRS/GAAP compliance and immutable trust."
+    },
+    "isuncloud": {
+      "title": "iSunCloud",
+      "description": "The computational backbone converting global P2P power into enterprise-grade cloud services. Designed for high-frequency trading and AI regulation, ensuring decentralized security and high availability."
+    },
+    "tidebit": {
+      "title": "TideBit",
+      "description": "A transparent, AI-regulated equity crowdfunding model. Assists unlisted companies in compliant disclosure and funding, with share registration via CAFECA, building trust and liquidity."
+    },
+    "baifa": {
+      "title": "BAIFA",
+      "description": "Transparent on-chain data analytics and AML tools for institutions. Features real-time risk alerts, stablecoin tracking, and whale monitoring to ensure asset transparency and trust."
+    }
   }
 }
