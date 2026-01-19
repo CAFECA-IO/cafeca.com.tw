@@ -4,6 +4,7 @@ import Footer from '@/components/common/footer';
 import CTA from '@/components/landing_page/cta';
 import ServiceOverview from '@/components/landing_page/service_overview';
 import ServiceStage from '@/components/landing_page/service_stage';
+import OurProducts from '@/components/landing_page/our_products';
 
 export default function Home() {
   return (
@@ -36,6 +37,9 @@ export default function Home() {
 
         {/* Info: (20251106 - Julian) Service Stage */}
         <ServiceStage />
+
+        {/* Info: (20250119 - Julian) Our Products */}
+        <OurProducts />
       </div>
 
       {/* Info: (20251105 - Julian) Footer */}

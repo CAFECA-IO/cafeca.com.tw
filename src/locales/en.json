@@ -50,8 +50,45 @@
   "ServiceStage": {
     "label": "SERVICE STAGE",
     "title": "Our Journey Forward",
-    "stage1": "Financial Regulatory Sandbox",
-    "stage2": "License Acquisition & Expanded Testing Scope",
-    "stage3": "Official Launch"
+    "stage1": {
+      "title": "Financial Regulatory Sandbox",
+      "description": "Collaborate with regulatory bodies to test innovative financial technologies in a controlled environment, ensuring compliance and security."
+    },
+    "stage2": {
+      "title": "License Acquisition & Expanded Testing Scope",
+      "description": "Secure necessary financial licenses and expand operational testing to a broader user base, validating system scalability and robustness."
+    },
+    "stage3": {
+      "title": "Official Launch",
+      "description": "Full market release of the decentralized corporate infrastructure, empowering businesses with secure, blockchain-based governance and financial tools."
+    }
+  },
+  "OurProducts": {
+    "label": "OUR PRODUCTS",
+    "title": "Explore Our Ecosystem",
+    "gringotts": {
+      "title": "Gringotts",
+      "description": "Institutional-grade compliant stablecoin protocol using ERC-3643. Ensures on-chain compliance with 1:1 backing and smart audits, powering secure corporate financing and settlements."
+    },
+    "cafeca": {
+      "title": "CAFECA",
+      "description": "The core digital identity and compliance engine. Integrates biometrics with W3C standards to issue Soulbound Tokens (SBT), enabling 'verify once, compliant everywhere' security for institutional finance."
+    },
+    "isunfa": {
+      "title": "iSunFA",
+      "description": "Core smart accounting/audit engine. Uses multi-modal models to align structured data with unstructured contracts (PDFs, laws), ensuring 24/7 IFRS/GAAP compliance and immutable trust."
+    },
+    "isuncloud": {
+      "title": "iSunCloud",
+      "description": "The computational backbone converting global P2P power into enterprise-grade cloud services. Designed for high-frequency trading and AI regulation, ensuring decentralized security and high availability."
+    },
+    "tidebit": {
+      "title": "TideBit",
+      "description": "A transparent, AI-regulated equity crowdfunding model. Assists unlisted companies in compliant disclosure and funding, with share registration via CAFECA, building trust and liquidity."
+    },
+    "baifa": {
+      "title": "BAIFA",
+      "description": "Transparent on-chain data analytics and AML tools for institutions. Features real-time risk alerts, stablecoin tracking, and whale monitoring to ensure asset transparency and trust."
+    }
   }
 }
