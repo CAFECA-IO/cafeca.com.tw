@@ -3,6 +3,107 @@
     "title": "CAFECA",
     "welcome": "The Future of Corporate Governance and FinTech"
   },
+  "Hero": {
+    "headline": "Innovating Future Finance",
+    "subheadline": "Challenging global standards with a modular, modern tech stack. Built for autonomy, scalability, and cross-border deployment.",
+    "ctaPrimary": "Partner with Us",
+    "ctaSecondary": "Explore Sandbox"
+  },
+  "Vision": {
+    "title": "Our Vision",
+    "description": "Built on decentralized architecture, deeply cultivating core AI financial accounting technologies. Rooted in Taiwan with a global vision, we provide self-developed AI financial infrastructure that rivals international leaders like Temenos, redefining the benchmark for high-performance FinTech.",
+    "visualSubtitle": "MIT License & Made in Taiwan",
+    "points": {
+      "autonomous": "Autonomous Technology",
+      "performance": "High Performance Core",
+      "global": "Global Scalability",
+      "genAI": "Power by Generative AI"
+    }
+  },
+  "TechPillars": {
+    "title": "Core Technologies",
+    "subtitle": "Building blocks of the next-gen financial ecosystem.",
+    "pillar1Title": "Digital Identity",
+    "pillar1Desc": "FIDO2 Biometrics & Multi-factor Authentication.",
+    "pillar2Title": "Alohomora",
+    "pillar2Desc": "Homomorphic Encryption for secure data utilization.",
+    "pillar3Title": "Locutus",
+    "pillar3Desc": "Edge Computing powering decentralized infrastructure.",
+    "pillar4Title": "FAITH AI",
+    "pillar4Desc": "Multi-modal Accounting Intelligence Model."
+  },
+  "Milestones": {
+    "title": "Validation & Growth",
+    "subtitle": "Redefining financial infrastructure step by step.",
+    "stage1": {
+      "title": "Financial Regulatory Sandbox",
+      "desc": "In accordance with the Fintech Development and Innovation Experimentation Act, we are actively preparing the application process for a convertible bond issuance and exchange platform. We sincerely invite securities dealers, commercial banks, or trust companies to co-apply as innovation experiment partners."
+    },
+    "stage2": {
+      "title": "Licensing & Expansion",
+      "desc": "Acquiring necessary financial licenses and expanding operational testing to a broader user base to verify system scalability and robustness."
+    },
+    "stage3": {
+      "title": "Official Launch",
+      "desc": "Fully launching the decentralized enterprise infrastructure to the market, empowering enterprises with secure, blockchain-based governance and financial instruments."
+    },
+    "currentBranch": "Current Stage"
+  },
+  "Ecosystem": {
+    "title": "Product Ecosystem",
+    "description": "Connecting institutions, regulators, and users through a unified, high-security infrastructure.",
+    "nodes": {
+      "cafeca": {
+        "title": "CAFECA Digital Identity & Compliance Engine",
+        "desc": "Providing institution-grade identity orchestration services complying with W3C standards and FIDO2 passwordless authentication. Integrating biometrics and Soulbound Tokens to achieve single verification and globally compliant digital footprint management. Helping banks build rigorous digital defenses to ensure high-value transactions and asset transfers are executed under the highest security framework."
+      },
+      "isunfa": {
+        "title": "iSunFA Intelligent Fund Management & Audit Core",
+        "desc": "Leveraging its core AI Accountant - FAITH, introducing accountant-level professional judgment into fund flow management. Automating reconciliation and fund usage tracking, matching with structured transaction data from banks, ensuring every fund interaction complies with regulations and accounting standards."
+      },
+      "tidebit": {
+        "title": "TideBit-DeFi Digital Financial Asset Trading Platform",
+        "desc": "A digital asset trading architecture designed for banking institutions and professional investors, aiming to build a transparent, compliant corporate financing model based on AI supervision. Providing a liquid trading environment for enterprises and financial assets through advanced regulatory technology."
+      },
+      "gringotts": {
+        "title": "Gringotts Financial Asset Issuance Protocol",
+        "desc": "An underlying asset issuance protocol designed for banks and licensed financial institutions, with core design aiming to encode regulatory compliance directly into smart contracts for asset issuance. Supporting existing or new complex financial instruments, providing a comprehensive regulatory toolbox to ensure assets are executed under the highest security framework, accelerating financial innovation."
+      },
+      "baifa": {
+        "title": "BAIFA Transaction Analysis & Risk Monitoring Tool",
+        "desc": "Providing real-time Know Your Transaction services and whale activity monitoring. Combining financial event reasoning capabilities with risk rating models to break information asymmetry, helping financial institutions accurately identify potential compliance risks and build a comprehensive asset flow defense system."
+      },
+      "isuncloud": {
+        "title": "iSunCloud Distributed AI Computing Platform",
+        "desc": "Supporting multi-node computing platform architecture with geo-redundancy deployment, realizing a global distributed enterprise private cloud. Designed for high-frequency trading and AI, providing a high-security, high-speed, scalable, and high-availability operating environment."
+      }
+    }
+  },
+  "ProductSpotlight": {
+    "label": "Product Spotlight: iSunFA",
+    "headline": "AI Accounting Meets Core Banking.",
+    "description": "Beyond automated bookkeeping. Our iSunFA engine powers core banking financing and lending systems, enabling real-time financial health tracking at scale."
+  },
+  "TrackRecord": {
+    "title": "Proven Track Record",
+    "2018": {
+      "year": "2018-2021",
+      "title": "Empowered 'How-How Securities' for Sandbox success."
+    },
+    "2019": {
+      "year": "2019",
+      "title": "Built digital student labs for the FSC Examination Bureau."
+    },
+    "2020": {
+      "year": "2020-2021",
+      "title": "Collaborated with NCHC on national AI big data platforms."
+    }
+  },
+  "SandboxCTA": {
+    "headline": "Cross-Industry Innovation, Building Future Financial Defense Together",
+    "subheadline": "Fintech Regulatory Sandbox Experiment - Convertible Bond Issuance & Exchange Platform\n\nIn the rapidly changing capital markets, traditional financial product management is at a pivotal point for intelligent transformation. We sincerely invite institutions holding Commercial Bank, Securities Dealer, or Trust licenses to co-apply as innovation experiment partners. Together, under full regulatory compliance, we will drive new standards for digital assets that are efficient, transparent, and possess active defense capabilities.",
+    "ctaButton": "Join the Sandbox Experiment"
+  },
   "Navigation": {
     "home": "Home",
     "about": "About",
