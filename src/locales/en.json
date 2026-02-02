@@ -11,7 +11,7 @@
   },
   "Vision": {
     "title": "Our Vision",
-    "description": "Built on decentralized architecture, deeply cultivating core AI financial accounting technologies. Rooted in Taiwan with a global vision, we provide self-developed AI financial infrastructure that rivals international leaders like Temenos, redefining the benchmark for high-performance FinTech.",
+    "description": "Based on a distributed architecture, we deepen our core AI financial accounting technology. Rooted in Taiwan with a global layout, we establish Taiwan's self-developed core banking system and provide AI financial infrastructure comparable to international leading standards like Temenos, redefining the new benchmark for high-performance fintech.",
     "visualSubtitle": "MIT License & Made in Taiwan",
     "points": {
       "autonomous": "Autonomous Technology",
@@ -191,5 +191,11 @@
       "title": "BAIFA",
       "description": "Transparent on-chain data analytics and AML tools for institutions. Features real-time risk alerts, stablecoin tracking, and whale monitoring to ensure asset transparency and trust."
     }
+  },
+  "Footer": {
+    "address": "18F, No. 206, Sec. 1, Keelung Rd., Xinyi Dist., Taipei City",
+    "phone": "+886-2-25466225",
+    "email": "contact@cafeca.com.tw",
+    "github": "github.com/cafeca-io"
   }
 }
