@@ -30,13 +30,13 @@ const translationsMap: Record<Language, Translations> = {
 const LanguageContext = createContext<ILanguageContextProps | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguageState] = useState<Language>('en');
+  const [language, setLanguageState] = useState<Language>('zh-tw');
 
   useEffect(() => {
     /**
      * Info: (20260202 - Luphia) Load persisted language
      * Using a simple check to avoid hydration mismatch if needed, 
-     * but pure client logic is fine here since default is 'en'.
+     * but pure client logic is fine here since default is 'zh-tw'.
      * To properly fix 'setState inside effect', we just call it. 
      * The lint warning is about synchronous setState, but we are inside useEffect
      * so it only happens on mount. It's usually fine. 
