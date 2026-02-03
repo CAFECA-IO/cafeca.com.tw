@@ -3,6 +3,20 @@
     "title": "CAFECA",
     "welcome": "コーポレートガバナンスとフィンテックの未来"
   },
+  "Hero": {
+    "headline": "未来の金融を革新する",
+    "subheadline": "世界基準に挑む先進的な銀行システム。自律性、拡張性、そして国境を越えた展開のために構築されています。",
+    "ctaPrimary": "パートナーになる",
+    "ctaSecondary": "サンドボックスを探索",
+    "floatingLabels": {
+      "realTimeRisk": "リアルタイムリスク: 0.02%",
+      "autoRebalance": "自動リバランス有効",
+      "hyperPersonalizing": "超パーソナライズUX",
+      "latency": "レイテンシ: <1ms",
+      "zkProof": "ゼロ知識証明検証済み",
+      "homomorphicEncryption": "準同型暗号化データ保護"
+    }
+  },
   "Vision": {
     "title": "私たちのビジョン",
     "description": "分散型アーキテクチャを基盤とし、AI財務会計の中核技術を深耕しています。台湾を拠点に世界へ展開し、台湾独自のコアバンキングシステムを構築、Temenosなどの国際的リーダーに匹敵するAI金融インフラを提供し、高性能フィンテックの新たな基準を再定義します。",

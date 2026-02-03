@@ -10,86 +10,79 @@ const Hero: React.FC = () => {
   return (
     <section className="relative flex min-h-[90vh] w-full items-center justify-center overflow-hidden bg-bg-primary px-4 pt-20">
       {/* Info: (20260123 - Luphia) Background Tech Effects */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none select-none">
+      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none select-none overflow-hidden" style={{ perspective: '1000px' }}>
 
-        {/* Info: (20260123 - Luphia) Geometric Core */}
-        <div className="relative flex h-[800px] w-[800px] items-center justify-center opacity-60">
-
-          {/* Info: (20260123 - Luphia) Ring 1 - Outer Slow Rotate */}
+        {/* Info: (20260203 - Luphia) 3D Geometric Core */}
+        <motion.div
+          className="relative flex h-[600px] w-[600px] items-center justify-center"
+          style={{ transformStyle: "preserve-3d" }}
+          animate={{ rotateY: 360, rotateX: 360 }}
+          transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+        >
+          {/* Info: (20260203 - Luphia) Ring 1 - Outer Orbital */}
           <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-            className="absolute inset-0 flex items-center justify-center"
+            className="absolute inset-0 rounded-full border border-accent-cyan/20 shadow-[0_0_15px_rgba(0,229,255,0.1)]"
+            style={{ transformStyle: "preserve-3d" }}
+            animate={{ rotateX: 360, rotateY: 180, rotateZ: 90 }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           >
-            <svg className="h-[600px] w-[600px]" viewBox="0 0 600 600">
-              <circle cx="300" cy="300" r="299" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent-cyan/10" strokeDasharray="4 4" />
-              <circle cx="300" cy="300" r="299" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent-cyan/30" strokeDasharray="100 500" strokeLinecap="round" />
-            </svg>
+            <div className="absolute top-0 left-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent-cyan shadow-[0_0_10px_rgba(0,229,255,0.8)]" />
           </motion.div>
 
-          {/* Info: (20260123 - Luphia) Ring 2 - Middle Rev Rotate */}
+          {/* Info: (20260203 - Luphia) Ring 2 - Middle Diagonal */}
           <motion.div
-            animate={{ rotate: -360 }}
-            transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-            className="absolute inset-0 flex items-center justify-center"
+            className="absolute inset-[10%] rounded-full border border-accent-cyan/30"
+            style={{ transformStyle: "preserve-3d" }}
+            animate={{ rotateX: 180, rotateY: 360, rotateZ: 45 }}
+            transition={{ duration: 25, repeat: Infinity, ease: "linear", repeatType: "reverse" }}
           >
-            <svg className="h-[450px] w-[450px]" viewBox="0 0 450 450">
-              <circle cx="225" cy="225" r="220" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent-cyan/20" />
-              {/* Info: (20260123 - Luphia) Fiber optic pulse */}
-              <motion.circle
-                cx="225" cy="225" r="220"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                className="text-accent-cyan opacity-80"
-                strokeDasharray="20 1400"
-                strokeLinecap="round"
-                animate={{ strokeDashoffset: -1420 }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-              />
-            </svg>
+            <div className="absolute bottom-1/4 right-0 h-1.5 w-1.5 rounded-full bg-accent-gold shadow-[0_0_8px_rgba(255,215,0,0.8)]" />
           </motion.div>
 
-          {/* Info: (20260123 - Luphia) Ring 3 - Inner Fast Rotate */}
+          {/* Info: (20260203 - Luphia) Ring 3 - Inner Fast */}
           <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-            className="absolute inset-0 flex items-center justify-center"
-          >
-            <svg className="h-[300px] w-[300px]" viewBox="0 0 300 300">
-              <polygon points="150,10 290,150 150,290 10,150" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent-cyan/30" />
-              <circle cx="150" cy="150" r="80" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent-cyan/10" />
-            </svg>
-          </motion.div>
+            className="absolute inset-[25%] rounded-full border border-accent-cyan/40 border-dashed"
+            style={{ transformStyle: "preserve-3d" }}
+            animate={{ rotateX: -360, rotateY: -180 }}
+            transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+          />
 
-          {/* Info: (20260123 - Luphia) Center Core Pulse */}
-          <div className="absolute h-32 w-32 rounded-full bg-accent-cyan/10 blur-[40px] animate-pulse" />
-          <div className="absolute h-20 w-20 rounded-full bg-gradient-to-br from-accent-cyan to-blue-600 blur-[20px] opacity-80" />
+          {/* Info: (20260203 - Luphia) Ring 4 - Vertical Axis */}
+          <motion.div
+            className="absolute inset-[15%] rounded-full border-[0.5px] border-accent-gold/20"
+            style={{ transformStyle: "preserve-3d" }}
+            animate={{ rotateY: 360 }}
+            transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
+          />
 
-        </div>
+          {/* Info: (20260203 - Luphia) Core - Energy Sphere */}
+          <div className="absolute h-24 w-24 rounded-full bg-radial-gradient from-accent-cyan via-blue-500 to-transparent blur-[2px] opacity-90 shadow-[0_0_50px_rgba(0,229,255,0.6)] animate-pulse" style={{ background: 'radial-gradient(circle, rgba(0,229,255,0.8) 0%, rgba(0,229,255,0.1) 70%, transparent 100%)' }}>
+            <div className="absolute inset-0 animate-ping rounded-full bg-accent-cyan/20 blur-md"></div>
+          </div>
+        </motion.div>
 
-        {/* Info: (20260123 - Luphia) Floating Data Labels */}
-        <div className="absolute inset-0 overflow-hidden">
+        {/* Info: (20260123 - Luphia) Floating Data Labels - Kept for context layer but pushed back */}
+        <div className="absolute inset-0 overflow-hidden" style={{ transform: 'translateZ(-100px)' }}>
           {[
-            { text: "Real-time Risk: 0.02%", top: "20%", left: "15%", delay: 0 },
-            { text: "Auto-rebalance active", top: "15%", right: "20%", delay: 2 },
-            { text: "Hyper-personalizing UX", bottom: "25%", left: "20%", delay: 4 },
-            { text: "Latency: <1ms", bottom: "30%", right: "15%", delay: 1 },
-            { text: "Zero-Knowledge Proof Verified", top: "40%", right: "10%", delay: 3 },
-            { text: "Quantum-Resistant Layer", bottom: "15%", left: "30%", delay: 5 },
+            { text: t('floatingLabels.realTimeRisk'), top: "20%", left: "15%", delay: 0 },
+            { text: t('floatingLabels.autoRebalance'), top: "15%", right: "20%", delay: 2 },
+            { text: t('floatingLabels.hyperPersonalizing'), bottom: "25%", left: "20%", delay: 4 },
+            { text: t('floatingLabels.latency'), bottom: "30%", right: "15%", delay: 1 },
+            { text: t('floatingLabels.zkProof'), top: "40%", right: "10%", delay: 3 },
+            { text: t('floatingLabels.homomorphicEncryption'), bottom: "15%", left: "30%", delay: 5 },
           ].map((label, i) => (
             <motion.div
               key={i}
               className="absolute flex items-center gap-2 rounded bg-black/40 px-3 py-1 text-[10px] font-mono text-accent-cyan/70 backdrop-blur-md border border-accent-cyan/20"
               style={{ top: label.top, left: label.left, right: label.right, bottom: label.bottom }}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: [0, 1, 1, 0], scale: [0.9, 1, 1, 0.9] }}
+              initial={{ opacity: 0, scale: 0.9, z: -50 }}
+              animate={{ opacity: [0, 1, 1, 0], scale: [0.9, 1, 1, 0.9], z: [0, 50, 0, -50] }}
               transition={{
-                duration: 4,
+                duration: 5,
                 repeat: Infinity,
-                repeatDelay: ((i + 1) * 1.3) % 5 + 2,
+                repeatDelay: ((i + 1) * 1.5) % 5 + 2,
                 delay: label.delay,
-                times: [0, 0.1, 0.8, 1]
+                times: [0, 0.2, 0.8, 1]
               }}
             >
               <div className="h-1.5 w-1.5 rounded-full bg-accent-cyan animate-pulse" />
@@ -102,7 +95,7 @@ const Hero: React.FC = () => {
         <div className="absolute bottom-[-10%] left-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle,var(--color-accent-gold)_0%,transparent_70%)] opacity-5 blur-[80px]" />
 
         {/* Info: (20260123 - Luphia) Grid Pattern Overlay */}
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5" />
+        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5 mask-image-gradient-to-b" />
 
         <div className="absolute inset-x-0 bottom-0 h-[300px] bg-gradient-to-t from-bg-primary to-transparent" />
       </div>

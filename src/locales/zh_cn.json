@@ -3,6 +3,20 @@
     "title": "CAFECA",
     "welcome": "公司治理与金融科技的未来"
   },
+  "Hero": {
+    "headline": "拥抱智慧的金融架构",
+    "subheadline": "挑战全球标准的先进银行系统，专为自主性、扩展性及跨国部署而生。",
+    "ctaPrimary": "成为合作伙伴",
+    "ctaSecondary": "探索沙盒",
+    "floatingLabels": {
+      "realTimeRisk": "即时风险: 0.02%",
+      "autoRebalance": "自动再平衡已启动",
+      "hyperPersonalizing": "超个人化用户体验",
+      "latency": "延迟: <1ms",
+      "zkProof": "零知识证明已验证",
+      "homomorphicEncryption": "同态加密数据保护"
+    }
+  },
   "Vision": {
     "title": "我们的愿景",
     "description": "以分布式架构为基石，深耕人工智能财务会计核心技术。我们立足台湾、布局全球，建立台湾自主研发的银行核心系统，提供媲美 Temenos 等国际领先标准的 AI 金融底层基础设施，重新定义高效能金融科技的新标杆。",

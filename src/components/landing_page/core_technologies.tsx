@@ -34,32 +34,34 @@ const CoreTechnologies: React.FC = () => {
   ];
 
   return (
-    <section className="bg-bg-primary py-24 px-6 relative z-10">
+    <section className="bg-bg-primary py-12 sm:py-24 px-4 sm:px-6 relative z-10">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-20 text-center">
-          <h2 className="text-4xl font-bold text-text-primary md:text-5xl lg:text-6xl">
+        <div className="mb-10 md:mb-20 text-center">
+          <h2 className="text-3xl font-bold text-text-primary md:text-5xl lg:text-6xl">
             {t('title') || 'Core Technologies'}
           </h2>
-          <p className="mt-6 text-xl text-text-secondary font-light">
+          <p className="mt-4 md:mt-6 text-base md:text-xl text-text-secondary font-light">
             {t('subtitle') || 'Building blocks of the next-gen financial ecosystem.'}
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 md:gap-8 lg:grid-cols-4">
           {pillars.map((pillar) => (
             <div
               key={pillar.id}
-              className="group relative overflow-hidden rounded-2xl border border-white/5 bg-bg-secondary p-8 transition-all duration-300 hover:-translate-y-2 hover:border-accent-cyan/30 hover:shadow-[0_0_40px_rgba(0,229,255,0.15)]"
+              className="group relative overflow-hidden rounded-2xl border border-white/5 bg-bg-secondary p-4 sm:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-accent-cyan/30 hover:shadow-[0_0_40px_rgba(0,229,255,0.15)]"
             >
-              <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-accent-cyan/10 transition-colors group-hover:bg-accent-cyan/20">
-                {pillar.icon}
+              <div className="mb-4 sm:mb-8 inline-flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-2xl bg-accent-cyan/10 transition-colors group-hover:bg-accent-cyan/20">
+                <div className="scale-75 sm:scale-100 transform transition-transform">
+                  {pillar.icon}
+                </div>
               </div>
 
-              <h3 className="mb-4 text-xl font-bold text-text-primary group-hover:text-accent-cyan transition-colors">
+              <h3 className="mb-2 sm:mb-4 text-sm sm:text-xl font-bold text-text-primary group-hover:text-accent-cyan transition-colors">
                 {pillar.title}
               </h3>
 
-              <p className="text-sm leading-relaxed text-text-secondary">
+              <p className="text-xs sm:text-sm leading-relaxed text-text-secondary">
                 {pillar.desc}
               </p>
 

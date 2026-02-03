@@ -3,6 +3,20 @@
     "title": "CAFECA",
     "welcome": "기업 거버넌스와 핀테크의 미래"
   },
+  "Hero": {
+    "headline": "미래 금융의 혁신",
+    "subheadline": "글로벌 표준에 도전하는 선진 뱅킹 시스템. 자율성, 확장성 및 국경 간 배포를 위해 구축되었습니다。",
+    "ctaPrimary": "파트너 되기",
+    "ctaSecondary": "샌드박스 탐색",
+    "floatingLabels": {
+      "realTimeRisk": "실시간 위험: 0.02%",
+      "autoRebalance": "자동 리밸런싱 활성",
+      "hyperPersonalizing": "초개인화 UX",
+      "latency": "지연 시간: <1ms",
+      "zkProof": "영지식 증명 검증됨",
+      "homomorphicEncryption": "동형 암호화 데이터 보호"
+    }
+  },
   "Vision": {
     "title": "우리의 비전",
     "description": "분산형 아키텍처를 기반으로 AI 재무 회계 핵심 기술을 깊이 연구합니다. 대만에 뿌리를 두고 전 세계로 뻗어나가며, 대만 자체 개발 코어 뱅킹 시스템을 구축하고 Temenos와 같은 국제 선도 기준에 필적하는 AI 금융 인프라를 제공하여 고성능 핀테크의 새로운 기준을 정립합니다。",

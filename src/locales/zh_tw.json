@@ -5,9 +5,17 @@
   },
   "Hero": {
     "headline": "擁抱智慧的金融架構",
-    "subheadline": "挑戰全球標準的現代化模組技術棧。專為自主性、擴展性及跨國部署而生。",
+    "subheadline": "挑戰全球標準的先進銀行系統，專為自主性、擴展性及跨國部署而生。",
     "ctaPrimary": "成為合作夥伴",
-    "ctaSecondary": "探索沙盒"
+    "ctaSecondary": "探索沙盒",
+    "floatingLabels": {
+      "realTimeRisk": "即時風險: 0.02%",
+      "autoRebalance": "自動再平衡已啟動",
+      "hyperPersonalizing": "超個人化用戶體驗",
+      "latency": "延遲: <1ms",
+      "zkProof": "零知識證明已驗證",
+      "homomorphicEncryption": "同態加密資料保護"
+    }
   },
   "Vision": {
     "title": "我們的願景",

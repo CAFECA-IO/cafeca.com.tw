@@ -5,9 +5,17 @@
   },
   "Hero": {
     "headline": "Innovating Future Finance",
-    "subheadline": "Challenging global standards with a modular, modern tech stack. Built for autonomy, scalability, and cross-border deployment.",
+    "subheadline": "Challenging global standards with an advanced banking system. Built for autonomy, scalability, and cross-border deployment.",
     "ctaPrimary": "Partner with Us",
-    "ctaSecondary": "Explore Sandbox"
+    "ctaSecondary": "Explore Sandbox",
+    "floatingLabels": {
+      "realTimeRisk": "Real-time Risk: 0.02%",
+      "autoRebalance": "Auto-rebalance active",
+      "hyperPersonalizing": "Hyper-personalizing UX",
+      "latency": "Latency: <1ms",
+      "zkProof": "Zero-Knowledge Proof Verified",
+      "homomorphicEncryption": "Homomorphic Encryption Data Protection"
+    }
   },
   "Vision": {
     "title": "Our Vision",
