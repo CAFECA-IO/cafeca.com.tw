@@ -1,4 +1,9 @@
 {
+  "NotFound": {
+    "title": "找不到页面",
+    "description": "您寻找的页面不存在。",
+    "button": "返回首页"
+  },
   "HomePage": {
     "title": "CAFECA",
     "welcome": "公司治理与金融科技的未来"

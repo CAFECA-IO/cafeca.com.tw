@@ -1,4 +1,9 @@
 {
+  "NotFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "description": "찾으시는 페이지가 존재하지 않습니다.",
+    "button": "홈으로 돌아가기"
+  },
   "HomePage": {
     "title": "CAFECA",
     "welcome": "기업 거버넌스와 핀테크의 미래"

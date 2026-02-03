@@ -1,4 +1,9 @@
 {
+  "NotFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しません。",
+    "button": "ホームに戻る"
+  },
   "HomePage": {
     "title": "CAFECA",
     "welcome": "コーポレートガバナンスとフィンテックの未来"

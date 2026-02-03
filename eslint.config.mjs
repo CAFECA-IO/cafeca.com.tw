@@ -147,6 +147,14 @@ const tslintConfigs = [
     },
   },
 
+  // Info: (20260203 - Luphia) Override for Next.js special files
+  {
+    files: ['src/app/not-found.tsx'],
+    rules: {
+      'check-file/filename-naming-convention': 'off',
+    },
+  },
+
   // Info: (20250918 - Luphia) Prettier 必須放在最後
   prettierConfig,
 ];
