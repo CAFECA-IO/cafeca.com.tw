@@ -89,4 +89,4 @@ The URL structure follows the pattern `/[locale]/...`. For example:
 
 ## License
 
-Copyright © CAFECA Inc. All rights reserved.
+Copyright © CAFECA Fintech. All rights reserved.

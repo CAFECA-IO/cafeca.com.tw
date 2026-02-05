@@ -1,5 +1,5 @@
 // Info: (20250804 - Julian) Contact Information and Social Media Links
-export const CAFECA_COPYRIGHT = `CAFECA Inc. © 2017 - ${new Date().getFullYear()}. All rights reserved.`;
+export const CAFECA_COPYRIGHT = `CAFECA Fintech © 2017 - ${new Date().getFullYear()}. All rights reserved.`;
 export const CAFECA_LOCATION_EN = process.env.NEXT_PUBLIC_CAFECA_LOCATION_EN ?? '18 F., No. 206, Sec. 1, Keelung Rd., Xinyi Dist., Taipei City 110058, Taiwan';
 export const CAFECA_LOCATION_CH = process.env.NEXT_PUBLIC_CAFECA_LOCATION_CH ?? '臺北市信義區基隆路1段206號18樓';
 export const CAFECA_LOCATION_MAP = process.env.NEXT_PUBLIC_CAFECA_LOCATION_MAP ?? 'https://www.google.com/maps/place/110%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E4%B9%89%E5%8C%BA%E4%BF%A1%E7%BE%A9%E8%B7%AF%E4%BA%94%E6%AE%B5150%E5%B7%B72%E8%99%9F13%E6%A8%93%E4%B9%8B6/data=!4m2!3m1!1s0x3442abb275eba6e1:0x28987dcc88afff9a?sa=X&ved=1t:242&ictx=111';
