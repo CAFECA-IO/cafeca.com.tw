@@ -1,6 +1,6 @@
 {
   "name": "cafeca.com.tw",
-  "version": "1.0.0+1",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "npm run lint && next dev",
