@@ -42,8 +42,8 @@
     "pillar2Desc": "Homomorphic Encryption for secure data utilization.",
     "pillar3Title": "Locutus",
     "pillar3Desc": "Edge Computing powering decentralized infrastructure.",
-    "pillar4Title": "FAITH AI",
-    "pillar4Desc": "Multi-modal Accounting Intelligence Model."
+    "pillar4Title": "FAITH",
+    "pillar4Desc": "AI GHG Accountant Multi-modal Model."
   },
   "Milestones": {
     "title": "Validation & Growth",
@@ -71,8 +71,8 @@
         "desc": "Providing institution-grade identity orchestration services complying with W3C standards and FIDO2 passwordless authentication. Integrating biometrics and Soulbound Tokens to achieve single verification and globally compliant digital footprint management. Helping banks build rigorous digital defenses to ensure high-value transactions and asset transfers are executed under the highest security framework."
       },
       "isunfa": {
-        "title": "iSunFA Intelligent Fund Management & Audit Core",
-        "desc": "Leveraging its core AI Accountant - FAITH, introducing accountant-level professional judgment into fund flow management. Automating reconciliation and fund usage tracking, matching with structured transaction data from banks, ensuring every fund interaction complies with regulations and accounting standards."
+        "title": "iSunFA Smart Carbon Accounting",
+        "desc": "Through the core AI GHG Accountant - FAITH, carbon footprint expertise is integrated into daily accounting. The system automatically extracts transaction vouchers and structurally matches them with standard carbon emission factors, achieving 'accounting as carbon tracking' for greenhouse gas inventory and estimation. By synchronously tracking capital flows and carbon footprints, it accurately analyzes operational hotspots, assisting enterprises in formulating financial optimization and net-zero plans, ensuring that carbon reduction decisions and ESG disclosures possess financial-grade rigor and compliance."
       },
       "tidebit": {
         "title": "TideBit-DeFi Digital Financial Asset Trading Platform",
