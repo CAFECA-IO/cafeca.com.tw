@@ -70,6 +70,11 @@ const Hero: React.FC = () => {
             { text: t('floatingLabels.latency'), bottom: "30%", right: "15%", delay: 1 },
             { text: t('floatingLabels.zkProof'), top: "40%", right: "10%", delay: 3 },
             { text: t('floatingLabels.homomorphicEncryption'), bottom: "15%", left: "30%", delay: 5 },
+            { text: t('floatingLabels.carbonAccounting'), top: "25%", left: "40%", delay: 1.5 },
+            { text: t('floatingLabels.carbonCalculation'), bottom: "20%", right: "35%", delay: 3.5 },
+            { text: t('floatingLabels.carbonHealthCheck'), top: "50%", left: "5%", delay: 0.5 },
+            { text: t('floatingLabels.environmentalAI'), bottom: "45%", right: "5%", delay: 2.5 },
+            { text: t('floatingLabels.greenFinanceInfo'), top: "10%", right: "40%", delay: 4.5 },
           ].map((label, i) => (
             <motion.div
               key={i}

@@ -9,7 +9,7 @@
     "welcome": "The Future of Corporate Governance and FinTech"
   },
   "Hero": {
-    "headline": "Innovating Future Finance",
+    "headline": "Innovating Intelligent Green Finance",
     "subheadline": "Challenging global standards with an advanced banking system. Built for autonomy, scalability, and cross-border deployment.",
     "ctaPrimary": "Partner with Us",
     "ctaSecondary": "Explore Sandbox",
@@ -19,7 +19,12 @@
       "hyperPersonalizing": "Hyper-personalizing UX",
       "latency": "Latency: <1ms",
       "zkProof": "Zero-Knowledge Proof Verified",
-      "homomorphicEncryption": "Homomorphic Encryption Data Protection"
+      "homomorphicEncryption": "Homomorphic Encryption Data Protection",
+      "carbonAccounting": "Carbon Accounting",
+      "carbonCalculation": "Carbon Calculation",
+      "carbonHealthCheck": "Carbon Health Check",
+      "environmentalAI": "Environmental Engineering AI",
+      "greenFinanceInfo": "Green Finance Info"
     }
   },
   "Vision": {
@@ -80,7 +85,7 @@
       },
       "gringotts": {
         "title": "Gringotts Financial Asset Issuance Protocol",
-        "desc": "An underlying asset issuance protocol designed for banks and licensed financial institutions, with core design aiming to encode regulatory compliance directly into smart contracts for asset issuance. Supporting existing or new complex financial instruments, providing a comprehensive regulatory toolbox to ensure assets are executed under the highest security framework, accelerating financial innovation."
+        "desc": "An underlying asset issuance protocol designed for banks and licensed financial institutions, with core design aiming to encode regulatory compliance directly into smart contracts for asset issuance. Supporting existing or new complex financial instruments, including green finance and carbon credit assets, providing a comprehensive regulatory toolbox to ensure assets are executed under the highest security framework, accelerating sustainable development and financial innovation."
       },
       "baifa": {
         "title": "BAIFA Transaction Analysis & Risk Monitoring Tool",
@@ -88,7 +93,7 @@
       },
       "isuncloud": {
         "title": "iSunCloud Distributed AI Computing Platform",
-        "desc": "Supporting multi-node computing platform architecture with geo-redundancy deployment, realizing a global distributed enterprise private cloud. Designed for high-frequency trading and AI, providing a high-security, high-speed, scalable, and high-availability operating environment."
+        "desc": "Combining multi-node computing with geo-redundancy deployment, tailored for high-frequency trading and Artificial Intelligence. We provide a highly secure, ultra-fast responding, and elastically scalable operating environment that comprehensively empowers environmental engineering technological innovation, serving as a strong backbone for enterprises to achieve precise carbon calculation, carbon health checks, and green process revolution."
       }
     }
   },
@@ -182,7 +187,7 @@
     "title": "Explore Our Ecosystem",
     "gringotts": {
       "title": "Gringotts",
-      "description": "Institutional-grade compliant stablecoin protocol using ERC-3643. Ensures on-chain compliance with 1:1 backing and smart audits, powering secure corporate financing and settlements."
+      "description": "Institutional-grade compliant asset issuance protocol using ERC-3643. Ensures on-chain compliance with 1:1 backing and smart audits, powering secure corporate green finance, financing and settlements."
     },
     "cafeca": {
       "title": "CAFECA",
