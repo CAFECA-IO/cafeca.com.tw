@@ -8,6 +8,7 @@ import CoreTechnologies from '@/components/landing_page/core_technologies';
 import Ecosystem from '@/components/landing_page/ecosystem';
 import Milestones from '@/components/landing_page/milestones';
 import Partnership from '@/components/landing_page/partnership';
+import Philosophy from '@/components/landing_page/philosophy';
 
 export default function Home() {
   return (
@@ -49,21 +50,7 @@ export default function Home() {
 
         {/* Info: (20260123 - Luphia) Smart Efficiency Formula */}
         <MotionSection delay={0.3}>
-          <div className="flex w-full flex-col items-center justify-center py-16 opacity-40 transition-opacity hover:opacity-100 px-4">
-            <div className="mb-4 text-[10px] font-bold tracking-[0.3em] text-text-secondary uppercase text-center">The CAFECA Standard</div>
-            <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-4 font-serif text-lg italic text-text-secondary md:text-2xl">
-              <span className="whitespace-nowrap">E<sub>intelligent</sub></span>
-              <span>=</span>
-              <div className="flex flex-col items-center text-sm md:text-base mx-2">
-                <span>lim</span>
-                <span className="text-[10px] md:text-xs">t → ∞</span>
-              </div>
-              <div className="flex flex-col items-center text-center">
-                <span className="border-b border-text-secondary/30 px-2 pb-1 text-sm md:text-lg">Autonomous Decisions</span>
-                <span className="pt-1 text-xs md:text-lg">Total Transactions × Manual Intervention</span>
-              </div>
-            </div>
-          </div>
+          <Philosophy />
         </MotionSection>
       </div>
 
