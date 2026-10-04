@@ -80,8 +80,8 @@
         "desc": "Through the core AI GHG Accountant - FAITH, carbon footprint expertise is integrated into daily accounting. The system automatically extracts transaction vouchers and structurally matches them with standard carbon emission factors, achieving 'accounting as carbon tracking' for greenhouse gas inventory and estimation. By synchronously tracking capital flows and carbon footprints, it accurately analyzes operational hotspots, assisting enterprises in formulating financial optimization and net-zero plans, ensuring that carbon reduction decisions and ESG disclosures possess financial-grade rigor and compliance."
       },
       "tidebit": {
-        "title": "TideBit-DeFi Digital Financial Asset Trading Platform",
-        "desc": "A digital asset trading architecture designed for banking institutions and professional investors, aiming to build a transparent, compliant corporate financing model based on AI supervision. Providing a liquid trading environment for enterprises and financial assets through advanced regulatory technology."
+        "title": "TideBit-DeFi Carbon Credit Exchange",
+        "desc": "A cross-jurisdictional carbon credit trading platform where emission reduction credits issued in six Asia-Pacific jurisdictions trade on a single order book, with issuance, trading, retirement and custody disclosure fully on-chain. Credits are held in official government registry accounts, deposits are kept in trust accounts, and reconciliations are published monthly."
       },
       "gringotts": {
         "title": "Gringotts Financial Asset Issuance Protocol",
@@ -202,8 +202,8 @@
       "description": "The computational backbone converting global P2P power into enterprise-grade cloud services. Designed for high-frequency trading and AI regulation, ensuring decentralized security and high availability."
     },
     "tidebit": {
-      "title": "TideBit",
-      "description": "A transparent, AI-regulated equity crowdfunding model. Assists unlisted companies in compliant disclosure and funding, with share registration via CAFECA, building trust and liquidity."
+      "title": "TideBit-DeFi",
+      "description": "A cross-jurisdictional carbon credit exchange. Credits from six Asia-Pacific jurisdictions trade on one order book, each batch labeled with its issuing country and governed by its rules; issuance, trading, retirement and custody disclosure are all on-chain, with monthly public reconciliation."
     },
     "baifa": {
       "title": "BAIFA",
