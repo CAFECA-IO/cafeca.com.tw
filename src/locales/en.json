@@ -83,13 +83,13 @@
         "title": "TideBit-DeFi Carbon Credit Exchange",
         "desc": "A cross-jurisdictional carbon credit trading platform where emission reduction credits issued in six Asia-Pacific jurisdictions trade on a single order book, with issuance, trading, retirement and custody disclosure fully on-chain. Credits are held in official government registry accounts, deposits are kept in trust accounts, and reconciliations are published monthly."
       },
-      "gringotts": {
-        "title": "Gringotts Financial Asset Issuance Protocol",
-        "desc": "An underlying asset issuance protocol designed for banks and licensed financial institutions, with core design aiming to encode regulatory compliance directly into smart contracts for asset issuance. Supporting existing or new complex financial instruments, including green finance and carbon credit assets, providing a comprehensive regulatory toolbox to ensure assets are executed under the highest security framework, accelerating sustainable development and financial innovation."
+      "sinobee": {
+        "title": "SinoBee Open-Source AI Swarm Assistant",
+        "desc": "An open-source (MIT-licensed) swarm-intelligence AI assistant that works on your own computer. Describe the result you want and SinoBee researches the web, analyzes data, organizes files, writes code, operates the browser and desktop, and even produces videos. It mixes cloud and local models, with layered memory, a skill marketplace, scheduling and usage budgets, and always asks before risky actions."
       },
-      "baifa": {
-        "title": "BAIFA Transaction Analysis & Risk Monitoring Tool",
-        "desc": "Providing real-time Know Your Transaction services and whale activity monitoring. Combining financial event reasoning capabilities with risk rating models to break information asymmetry, helping financial institutions accurately identify potential compliance risks and build a comprehensive asset flow defense system."
+      "boltchain": {
+        "title": "BOLTCHAIN Shared Chain for AI Compute & Encrypted Storage",
+        "desc": "A shared rental chain for AI compute and encrypted storage. It offers leasing of attested TEE confidential computing environments (Intel TDX verified on-chain), an end-to-end encrypted inference market, and file notarization certificates with on-chain evidence verification. Every block is content-addressed on IPFS, so anyone can verify independently without trusting a single node."
       },
       "isuncloud": {
         "title": "iSunCloud Distributed AI Computing Platform",
@@ -185,9 +185,9 @@
   "OurProducts": {
     "label": "OUR PRODUCTS",
     "title": "Explore Our Ecosystem",
-    "gringotts": {
-      "title": "Gringotts",
-      "description": "Institutional-grade compliant asset issuance protocol using ERC-3643. Ensures on-chain compliance with 1:1 backing and smart audits, powering secure corporate green finance, financing and settlements."
+    "sinobee": {
+      "title": "SinoBee",
+      "description": "An open-source AI swarm assistant that works on your computer. Hand off research, data analysis, file organization, coding and video production in one sentence; mix cloud and local models, with the Skill Hub marketplace and task delegation."
     },
     "cafeca": {
       "title": "CAFECA",
@@ -205,9 +205,9 @@
       "title": "TideBit-DeFi",
       "description": "A cross-jurisdictional carbon credit exchange. Credits from six Asia-Pacific jurisdictions trade on one order book, each batch labeled with its issuing country and governed by its rules; issuance, trading, retirement and custody disclosure are all on-chain, with monthly public reconciliation."
     },
-    "baifa": {
-      "title": "BAIFA",
-      "description": "Transparent on-chain data analytics and AML tools for institutions. Features real-time risk alerts, stablecoin tracking, and whale monitoring to ensure asset transparency and trust."
+    "boltchain": {
+      "title": "BOLTCHAIN",
+      "description": "A shared rental chain for AI compute and encrypted storage. Lease attested TEE confidential computing, use an encrypted inference market, and anchor file fingerprints on-chain for certificates anyone can verify."
     }
   },
   "Footer": {
