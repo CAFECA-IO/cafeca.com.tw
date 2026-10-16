@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { useTranslations } from '@/hooks/use_translations';
-import { FaFingerprint, FaRobot, FaRightLeft, FaFileContract, FaChartLine, FaCloud } from 'react-icons/fa6';
+import { FaFingerprint, FaRobot, FaRightLeft, FaBrain, FaBolt, FaCloud } from 'react-icons/fa6';
 
 const Ecosystem: React.FC = () => {
   const t = useTranslations('Ecosystem');
@@ -39,8 +39,8 @@ const Ecosystem: React.FC = () => {
               { id: "cafeca", icon: <FaFingerprint />, link: "https://cafeca.io" },
               { id: "isunfa", icon: <FaRobot />, link: "https://isunfa.com" },
               { id: "tidebit", icon: <FaRightLeft />, link: "https://tidebit-defi.com" },
-              { id: "gringotts", icon: <FaFileContract />, link: "https://gringotts.tidebit-defi.com" },
-              { id: "baifa", icon: <FaChartLine />, link: "https://baifa.io" },
+              { id: "sinobee", icon: <FaBrain />, link: "https://sinobee.ai" },
+              { id: "boltchain", icon: <FaBolt />, link: "https://boltchain.cafeca.io" },
               { id: "isuncloud", icon: <FaCloud />, link: "https://isuncloud.com" }
             ].map((item, idx) => (
               <a
