@@ -62,6 +62,16 @@ To build and serve the application on a specific port (e.g., 10015):
 npm run swarm
 ```
 
+### Auto Redeploy (pm2)
+
+`shell/auto_redeploy.sh` pulls the latest code from GitHub and prints the current version. If there is an update, it rebuilds and restarts the pm2 service; otherwise it makes sure the service is running and starts it if not.
+
+```bash
+./shell/auto_redeploy.sh
+```
+
+Optional environment variables: `APP_NAME` (default `cafeca.com.tw`), `PORT` (default `10015`), `BRANCH` (default: current branch), `REMOTE` (default `origin`).
+
 ## Project Structure
 
 -   `src/app`: Next.js App Router pages and layouts.
